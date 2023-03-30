@@ -88,32 +88,25 @@ function createChart(id){
         var list = panelBody.append("ul");
 
         // Create a row for id and append it to the list
-        list.append("li")
-            .text("ID: " + metadata.id);
+        list.append("li").text("ID: " + metadata.id);
 
         // Create a row for ethnicity and append it to the list
-        list.append("li")
-            .text("Ethnicity: " + metadata.ethnicity);
+        list.append("li").text("Ethnicity: " + metadata.ethnicity);
 
         // Create a row for gender and append it to the list
-        list.append("li")
-            .text("Gender: " + metadata.gender);
+        list.append("li").text("Gender: " + metadata.gender);
 
         // Create a row for age and append it to the list
-        list.append("li")
-            .text("Age: " + metadata.age);
+        list.append("li").text("Age: " + metadata.age);
 
         // Create a row for location and append it to the list
-        list.append("li")
-            .text("Location: " + metadata.location);
+        list.append("li").text("Location: " + metadata.location);
 
         // Create a row for bbtype and append it to the list
-        list.append("li")
-            .text("BB Type: " + metadata.bbtype);
+        list.append("li").text("BB Type: " + metadata.bbtype);
 
         // Create a row for wfreq and append it to the list
-        list.append("li")
-            .text("W Freq: " + metadata.wfreq);
+        list.append("li").text("W Freq: " + metadata.wfreq);
 
 
     });
